@@ -18,4 +18,5 @@
             <input type="hidden" name="action" value="reset">
             <input type="submit" value="Submit">
         </form>
+        <p>${message}</p>
 </html>
