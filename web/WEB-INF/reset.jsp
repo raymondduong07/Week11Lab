@@ -9,9 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>NoteKeepr Reset Password</title>
     </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+    <h1>Reset password</h1>
+        <p>Please enter your email address associated with your account to reset your password.</p>
+        <form method="post" action="reset">
+            Email Address: <input type="text" name="email"><br>
+            <input type="hidden" name="action" value="reset">
+            <input type="submit" value="Submit">
+        </form>
 </html>
